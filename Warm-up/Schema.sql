@@ -6,6 +6,7 @@ CREATE TABLE Employee (
     email VARCHAR(100),
     hire_date DATE,
     salary DECIMAL(10,2),
-    department_id INT
+    department_id INT,
+    manager_id INT
 );
 
